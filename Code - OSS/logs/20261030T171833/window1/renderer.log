@@ -1,0 +1,88 @@
+2026-10-30 17:18:34.188 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-30 17:18:34.213 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 27ms.
+2026-10-30 17:18:34.238 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-30 17:18:34.459 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-10-30 17:18:34.852 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-30 17:18:34.993 [info] Started local extension host with pid 24191.
+2026-10-30 17:18:35.189 [info] [AgentHost:renderer] Protocol connection established; clientId=a90548c6-7130-4254-af14-69d3a84a513f
+2026-10-30 17:18:36.327 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-30 17:18:37.008 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at node:internal/modules/cjs/loader:1524:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:695:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:993)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:698:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at node:internal/modules/cjs/loader:1301:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18159)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:864:6673)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:695:29304)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:687:26830)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.<anonymous> (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:273:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.kns [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:6983:1385)
+	at OCn (/usr/lib/code/extensions/copilot/dist/extension.js:1079:8323)
+	at Tns (/usr/lib/code/extensions/copilot/dist/extension.js:6983:1536)
+	at dc._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:559:18738)
+	at dc._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:559:18448)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:559:16422
+	at async Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:555:16021)
+	at async Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:555:15963)
+	at async Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:555:15330)
+2026-10-30 17:18:37.135 [error] Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+	at node:internal/modules/cjs/loader:1524:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:695:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:993)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:698:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at require.resolve (node:internal/modules/helpers:171:31)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:2258)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:698:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at ModuleLoader.resolveSync (node:internal/modules/esm/loader:747:16)
+	at #resolve (node:internal/modules/esm/loader:683:17)
+	at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+	at node:internal/modules/esm/loader:632:32
+	at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+	at ModuleLoader.import (node:internal/modules/esm/loader:628:21)
+	at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:239:31)
+	at importModuleDynamicallyCallback (node:internal/modules/esm/utils:263:12)
+	at MZ.getPackage (/usr/lib/code/extensions/copilot/dist/extension.js:2791:15460)
+2026-10-30 17:18:37.667 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:18:37.667 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:18:37.693 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:18:37.693 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:18:37.887 [info] [perf] Render performance baseline is 31ms

@@ -1,0 +1,23 @@
+2026-10-31 10:43:13.390 [info] Extension host with pid 8724 started
+2026-10-31 10:43:13.390 [info] Skipping acquiring lock for /home/operator/.config/Code - OSS/User/workspaceStorage/cd0d464e1eeb299f888977ceddc34431.
+2026-10-31 10:43:13.678 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-31 10:43:13.700 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-31 10:43:13.711 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-10-31 10:43:14.505 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2026-10-31 10:43:14.583 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-10-31 10:43:14.624 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2026-10-31 10:43:14.662 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-31 10:43:14.700 [info] Eager extensions activated
+2026-10-31 10:43:14.729 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-31 10:43:14.730 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-31 10:53:59.367 [info] Extension host terminating: received terminate message from renderer
+2026-10-31 10:53:59.376 [info] Extension host with pid 8724 exiting with code 0
+2026-10-31 10:54:00.504 [info] Extension host with pid 18180 started
+2026-10-31 10:54:00.504 [info] Skipping acquiring lock for /home/operator/.config/Code - OSS/User/workspaceStorage/bb3f83a1a18d42327d2661f621abfe14.
+2026-10-31 10:54:00.626 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-31 10:54:00.646 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-31 10:54:00.691 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-10-31 10:54:00.710 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-31 10:54:00.727 [info] Eager extensions activated
+2026-10-31 10:54:00.742 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-31 10:54:00.743 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

@@ -1,0 +1,5 @@
+2026/10/30-07:47:37.503 1786 Creating DB /home/operator/.config/google-chrome/Default/IndexedDB/https_de.pinterest.com_0.indexeddb.leveldb since it was missing.
+2026/10/30-07:47:37.506 1786 Reusing MANIFEST /home/operator/.config/google-chrome/Default/IndexedDB/https_de.pinterest.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/30-07:50:47.298 178a Level-0 table #5: started
+2026/10/30-07:50:47.322 178a Level-0 table #5: 1580589 bytes OK
+2026/10/30-07:50:47.326 178a Delete type=0 #3

@@ -1,0 +1,202 @@
+/* YouTube Play Next Button Extension Popup Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    line-height: 1.6;
+}
+
+.popup-container {
+    width: 500px !important;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 500px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%, 100% { transform: translateX(-100%) translateY(-100%) rotate(0deg); }
+    50% { transform: translateX(0%) translateY(0%) rotate(180deg); }
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.header h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    line-height: 1.2;
+}
+
+.content {
+    padding: 25px;
+}
+
+/* Toggle-related styles removed - extension always works */
+
+.toggle-description {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.features {
+    margin-bottom: 15px;
+}
+
+.features h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 5px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #666;
+    border-left: 3px solid #ff0000;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    background: #f8f9fa;
+    border-radius: 0 8px 8px 0;
+    transition: all 0.3s ease;
+}
+
+.features li:hover {
+    background: #e9ecef;
+    transform: translateX(5px);
+}
+
+.usage {
+    margin-bottom: 20px;
+}
+
+.usage h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 5px;
+}
+
+.usage p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+kbd {
+    background: #f1f3f4;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    color: #3c4043;
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 2px 6px;
+    white-space: nowrap;
+    margin: 0 2px;
+}
+
+.footer {
+    background: #f8f9fa;
+    padding: 20px;
+    border-top: 1px solid #e9ecef;
+}
+
+.credits h4 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.credits p {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.credits a {
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.credits a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    .popup-container {
+        width: 100%;
+        border-radius: 0;
+    }
+}

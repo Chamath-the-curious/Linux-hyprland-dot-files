@@ -1,0 +1,31 @@
+2026-10-30 17:18:46.121 [info] Agent Host process started successfully
+2026-10-30 17:18:46.121 [info] AgentService initialized
+2026-10-30 17:18:46.121 [info] Registering agent provider: copilotcli
+2026-10-30 17:18:46.121 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:18:46.139 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-73b0707d0432/DWtWp-FKxSVqZEojOAw16A.sock
+2026-10-30 17:18:46.145 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-30 17:18:46.297 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:18:46.436 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:18:46.503 [info] [ProtocolServer] Initialize: clientId=9787a7fe-6d7a-4705-9593-d5ee6ab9471c, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-30 17:18:48.001 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-10-30 17:18:48.002 [info] [Copilot] Listing discoverable chats...
+2026-10-30 17:18:48.003 [info] [Copilot] Starting CopilotClient...
+2026-10-30 17:18:48.003 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-10-30 17:18:48.009 [info] [Copilot] Resolved CLI path: /usr/lib/code/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-10-30 17:18:48.636 [info] [Copilot] CopilotClient started successfully
+2026-10-30 17:18:48.638 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-30 17:18:48.638 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-10-30 17:18:48.817 [info] [Copilot] Auth token updated
+2026-10-30 17:18:50.604 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-10-30 17:18:50.607 [info] [Copilot] Listing models...
+2026-10-30 17:18:51.991 [info] [Copilot] Found 1 models: Auto
+2026-10-30 17:19:14.220 [info] [ProtocolServer] Client disconnected: 9787a7fe-6d7a-4705-9593-d5ee6ab9471c, subscriptions=1
+2026-10-30 17:19:14.221 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:19:14.889 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:19:14.947 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:19:14.974 [info] [ProtocolServer] Initialize: clientId=91d95525-b3c5-4f72-b9f0-72951e0b3582, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-30 17:19:38.250 [info] [ProtocolServer] Client disconnected: 91d95525-b3c5-4f72-b9f0-72951e0b3582, subscriptions=1
+2026-10-30 17:19:38.251 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:19:38.251 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:19:38.253 [info] AgentService: shutting down all providers...
+2026-10-30 17:19:38.253 [info] [Copilot] Shutting down...

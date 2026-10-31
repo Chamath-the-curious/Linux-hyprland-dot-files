@@ -1,0 +1,112 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "21e8bfa3810da69449552f39fc00570244dc3d80c9b942c1d362978c1cf34190",
+    "telemetry.devDeviceId": "ccbe9c84-57cf-4f98-8985-c6bc9538a2e0",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/operator/.config/hypr"
+            },
+            {
+                "folderUri": "file:///home/operator/.config/yazi"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/operator": "__default__profile__",
+            "file:///home/operator/.config/hypr": "__default__profile__",
+            "file:///home/operator/.config/yazi": "__default__profile__",
+            "file:///home/operator/.config/cava": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarInactiveBackground": "#121314",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "modernActivityBarBackground": "#191a1b",
+            "modernActivityBarInactiveBackground": "#191a1b",
+            "modernActivityBarBorder": "#252526",
+            "modernPanelBorder": "#2a2b2c",
+            "modernUIShellBackground": "#191a1b",
+            "modernUIInactiveShellBackground": "#121314",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "editorBorder": "#2a2b2c",
+            "surfaceBackground": "#191a1b",
+            "surfaceBorder": "#2a2b2c",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarInactiveBackground": "#121314",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false,
+            "modernUICompact": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/operator/.config/yazi",
+            "backupPath": "/home/operator/.config/Code - OSS/Backups/5d7b7cef806f2a0327ccbaa6580552eb",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 1920,
+                "height": 1200
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "80489eee0bda34f80be8e54c59440aaa": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "cd0d464e1eeb299f888977ceddc34431": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "bb3f83a1a18d42327d2661f621abfe14": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "4942d75ec74a88a6dbfffc5b0d1470c4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

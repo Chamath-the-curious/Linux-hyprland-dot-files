@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[66858],{41096:(e,a,n)=>{n.r(a),n.d(a,{default:()=>i});const i={"contextualPrompts.loading.creatingSuggestions":"Creazione di suggerimenti personalizzati...","contextualPrompts.loading.tailoringHelp":"Personalizzazione dell’assistenza…"}}}]);

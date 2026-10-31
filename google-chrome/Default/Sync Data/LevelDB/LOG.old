@@ -1,0 +1,6 @@
+2026/10/31-10:35:04.447 104c Reusing MANIFEST /home/operator/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/10/31-10:35:04.447 104c Recovering log #32
+2026/10/31-10:35:04.449 104c Reusing old log /home/operator/.config/google-chrome/Default/Sync Data/LevelDB/000032.log 
+2026/10/31-10:49:08.166 104c Level-0 table #36: started
+2026/10/31-10:49:08.180 104c Level-0 table #36: 150417 bytes OK
+2026/10/31-10:49:08.182 104c Delete type=0 #32

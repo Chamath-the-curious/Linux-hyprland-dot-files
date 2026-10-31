@@ -1,0 +1,14 @@
+2026-10-30 17:20:32.930 [info] Agent Host process started successfully
+2026-10-30 17:20:32.930 [info] AgentService initialized
+2026-10-30 17:20:32.930 [info] Registering agent provider: copilotcli
+2026-10-30 17:20:32.930 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:20:32.944 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-73b0707d0432/zH0i1gZMDezhIARNYt7Blg.sock
+2026-10-30 17:20:32.954 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-30 17:20:33.103 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:20:33.256 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:20:33.324 [info] [ProtocolServer] Initialize: clientId=8eae36b3-6d9d-4360-9d8b-5d0f84d0b044, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-30 17:20:33.938 [info] [ProtocolServer] Client disconnected: 8eae36b3-6d9d-4360-9d8b-5d0f84d0b044, subscriptions=1
+2026-10-30 17:20:33.939 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:20:33.940 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-30 17:20:33.941 [info] AgentService: shutting down all providers...
+2026-10-30 17:20:33.942 [info] [Copilot] Shutting down...

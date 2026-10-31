@@ -1,0 +1,6 @@
+2026/10/31-11:11:26.031 104c Reusing MANIFEST /home/operator/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/31-11:11:26.031 104c Recovering log #15
+2026/10/31-11:11:26.034 104c Reusing old log /home/operator/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000015.log 
+2026/10/31-11:11:31.414 104c Level-0 table #21: started
+2026/10/31-11:11:31.431 104c Level-0 table #21: 1767809 bytes OK
+2026/10/31-11:11:31.434 104c Delete type=0 #15

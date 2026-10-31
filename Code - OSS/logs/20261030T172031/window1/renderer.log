@@ -1,0 +1,11 @@
+2026-10-30 17:20:32.457 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-30 17:20:32.482 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 27ms.
+2026-10-30 17:20:32.509 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-30 17:20:32.730 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-30 17:20:32.920 [info] [ChatModelSelection] event=conversation-restore surface="workbench" sessionKey=undefined conversationKey="vscode-chat-session://local/OGIyZWEwNzItM2I3MC00YWRiLWIyOWMtYmEyZDVmNmUxMWE2" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" desiredModel="copilot/auto" currentModel=undefined sessionType="local" action="apply"
+2026-10-30 17:20:32.946 [info] [ChatModelSelection] event=compatibility-check surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/OGIyZWEwNzItM2I3MC00YWRiLWIyOWMtYmEyZDVmNmUxMWE2" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" currentModel="copilot/auto" sessionType="local" willReset=true
+2026-10-30 17:20:33.102 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-30 17:20:33.260 [info] Started local extension host with pid 28751.
+2026-10-30 17:20:33.482 [info] [AgentHost:renderer] Protocol connection established; clientId=8eae36b3-6d9d-4360-9d8b-5d0f84d0b044
+2026-10-30 17:20:33.694 [warning] [chat-stt] could not refresh GitHub session state for cloud dictation Canceled
+2026-10-30 17:20:33.694 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled

@@ -1,0 +1,157 @@
+2026-10-31 10:24:54.025 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-31 10:24:54.051 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 27ms.
+2026-10-31 10:24:54.075 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-31 10:24:54.291 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-10-31 10:24:54.669 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-31 10:24:54.822 [info] Started local extension host with pid 1592.
+2026-10-31 10:24:54.968 [info] [AgentHost:renderer] Protocol connection established; clientId=2871c4e1-45e4-4c79-bcc3-c9baa9c63127
+2026-10-31 10:24:56.116 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-31 10:24:56.693 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at node:internal/modules/cjs/loader:1524:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:695:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:993)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:698:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at node:internal/modules/cjs/loader:1301:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18159)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:864:6673)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:695:29304)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:687:26830)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.<anonymous> (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:273:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.kns [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:6983:1385)
+	at OCn (/usr/lib/code/extensions/copilot/dist/extension.js:1079:8323)
+	at Tns (/usr/lib/code/extensions/copilot/dist/extension.js:6983:1536)
+	at dc._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:559:18738)
+	at dc._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:559:18448)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:559:16422
+	at async Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:555:16021)
+	at async Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:555:15963)
+	at async Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:555:15330)
+2026-10-31 10:24:56.914 [error] Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+	at node:internal/modules/cjs/loader:1524:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:695:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:993)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:698:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at require.resolve (node:internal/modules/helpers:171:31)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:2258)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:698:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at ModuleLoader.resolveSync (node:internal/modules/esm/loader:747:16)
+	at #resolve (node:internal/modules/esm/loader:683:17)
+	at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+	at node:internal/modules/esm/loader:632:32
+	at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+	at ModuleLoader.import (node:internal/modules/esm/loader:628:21)
+	at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:239:31)
+	at importModuleDynamicallyCallback (node:internal/modules/esm/utils:263:12)
+	at MZ.getPackage (/usr/lib/code/extensions/copilot/dist/extension.js:2791:15460)
+2026-10-31 10:24:56.983 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-10-31 10:24:57.396 [error] [Extension Host] (node:1592) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-31 10:24:57.396 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:24:57.397 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:24:57.449 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:24:57.449 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:24:57.699 [info] [perf] Render performance baseline is 25ms
+2026-10-31 10:24:58.160 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-10-31 10:24:58.214 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-10-31 10:25:01.117 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-31 10:25:07.407 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-10-31 10:25:07.704 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:25:07.705 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:08.119 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:08.119 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:20.561 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:20.561 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:32.921 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:32.922 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:37.950 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:37.950 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:53.879 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:26:53.880 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:27:30.302 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:27:30.302 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:27:31.718 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:27:31.718 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:27:32.641 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:27:32.642 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:27:54.353 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: onboarding.developerMode, onboarding.developerModeVariations, onboarding.enabled, extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.defaultToCopilotHarness, chat.agentHost.byokModels.enabled, chat.agentHost.claudeAgent.enabled, chat.agentHost.codexAgent.enabled, chat.agentHost.experimental.activeAgentTitleGeneration, chat.agentHost.experimental.autoAttachPullRequests, chat.agentHost.experimental.markdownPlanRichLinks, chat.agentHost.githubMcpServer.enabled, chat.agentHost.otel.captureContent, chat.agentHost.otel.dbSpanExporter.enabled, chat.agentHost.otel.enabled, chat.agentHost.otel.exporterType, chat.agentHost.otel.otlpEndpoint, chat.agentHost.otel.outfile, chat.agentHost.systemProxy.enabled, chat.agentMerge.addressReviews, chat.agentMerge.enabled, chat.agentMerge.fixCI, chat.agentMerge.mergeMethod, chat.agentMerge.mergePullRequest, chat.agentMerge.replyAttribution, chat.agentMerge.resolveConflicts, chat.artifactTools.enabled, chat.agentSessions.autoArchiveMergedSessionsAfterDays, chat.agentSessions.autoDeleteArchivedMergedSessionsAfterDays, chat.stickyScroll.enabled, sessions.chat.unifiedWorkspacePicker.enabled, sessions.chatTimeline.display, chat.agentHost.agentDebugLog.enabled, chat.agentHost.agentDebugLog.maxEventsInMemory, chat.agentHost.ahpJsonlLoggingEnabled, chat.agentHost.allowSignedOutWhenUsable, chat.agentHost.copilot.mapLegacySettingsToManagedSettings, chat.agentHost.copilot.modelCapabilityOverrides, chat.agentHost.copilot.reasoningEffortOverride, chat.agentHost.copilot.reasoningSummary.enabled, chat.agentHost.copilot.toolSearch.deferThreshold, chat.agentHost.copilot.toolSearch.enabled, chat.agentHost.copilotSdk.logLevel, chat.agentHost.customTerminalTool.enabled, chat.agentHost.opus48Prompt.enabled, chat.agentHost.sdkSandbox.enabled, chat.agentHost.sdkSandbox.enabledWindows, chat.agentHost.shellTool.initScript.enabled, chat.agentSessions.migrateLegacyCopilotCli, chat.agentSessions.showExternal, chat.agentsHandoffTip.mode, chat.artifacts.enabled, chat.artifacts.rules.byFilePath, chat.artifacts.rules.byMemoryFilePath, chat.artifacts.rules.byMimeType, chat.assistedPermissions.enabled, chat.autopilot.advanced.enabled, chat.autoReply, chat.byokUtilityModelDefault, chat.contextUsage.enabled, chat.copilot.claudeAdvisor.enabled, chat.copilot.semanticSearch.enabled, chat.copilot.subagentModelGuidance.enabled, chat.customizations.locationsMigration.enabled, chat.customizations.mcpServerMigration.enabled, chat.customizations.migrationHint, chat.customizations.promptMigration.enabled, chat.customizations.structuredPreview.enabled, chat.customizations.userDataMigration.enabled, chat.defaultConfiguration, chat.defaultModel, chat.editing.openChangedFileInDiffEditor, chat.editing.revealNextChangeOnResolve, chat.experimental.collectInstructionsInExtension, chat.experimental.incrementalRendering.animationStyle, chat.experimental.incrementalRendering.buffering, chat.experimental.incrementalRendering.enabled, chat.experimental.openInAgentsWindow.revealCurrentSession, chat.experimental.permissionsSandboxToggle.enabled, chat.experimental.richLinks.enabled, chat.experimental.sessionArchiveActionWording, chat.experimental.sessionStateIndicator.enabled, chat.experimental.stickyScroll.enabled, chat.experimentalModelPicker, chat.experimentalModePermissionsPicker, chat.experimentalSessionsWindowOverride, chat.exploreAgent.defaultModel, chat.growthNotification.enabled, chat.inlineChat.agentHost.enabled, chat.microsoftAuthentication.enabled, chat.newSession.defaultMode, chat.pasteAsAttachmentThreshold, chat.permissions.default, chat.pluginLocations, chat.plugins.enabled, chat.plugins.enabledPlugins, chat.plugins.marketplaces, chat.plugins.strictMarketplaces, chat.progressBorder.enabled, chat.saveBeforeSend, chat.sessionSync.enabled, chat.sessionSync.excludeRepositories, chat.subagents.allowInvocationsFromSubagents, chat.subagents.defaultToAuto, chat.subagents.showCreditUsage, chat.subagents.useRichRendering, chat.terminal.agentHost.enabled, chat.titleBar.openInAgentsWindow.enabled, chat.titleBar.signIn.enabled, chat.tools.riskAssessment.model, chat.upvoteAnimation, chat.useClaudeHooks, chat.useCustomizationsInParentRepositories, chat.utilityModel, chat.utilitySmallModel, chat.verbose, dictation.enabled, dictation.experimental.llmCleanup, dictation.experimental.llmCleanupModel, dictation.model, dictation.showButton, dictation.showTranscript, github.copilot.chat.autoMode.tiers.enabled, github.copilot.chat.autoModeTierOverride, agents.voice.agentProgress, agents.voice.enabled, agents.voice.handsFree, agents.voice.language, agents.voice.liveTranscript, agents.voice.showButton, agents.voice.showTranscript, agents.voice.speakResponses, agents.voice.turn.silenceMs, agents.voice.turn.stopPhrases, agents.voice.voice, imageCarousel.chat.enabled, imageCarousel.explorerContextMenu.enabled, accessibility.signals.chatResponseReceived, accessibility.signals.chatUserActionRequired, issueReporter.wizard.enabled, issueReporter.wizard.fullWorkspaceScan
+2026-10-31 10:28:22.658 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: onboarding.developerMode, onboarding.developerModeVariations, onboarding.enabled, extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.defaultToCopilotHarness, chat.agentHost.byokModels.enabled, chat.agentHost.claudeAgent.enabled, chat.agentHost.codexAgent.enabled, chat.agentHost.experimental.activeAgentTitleGeneration, chat.agentHost.experimental.autoAttachPullRequests, chat.agentHost.experimental.markdownPlanRichLinks, chat.agentHost.githubMcpServer.enabled, chat.agentHost.otel.captureContent, chat.agentHost.otel.dbSpanExporter.enabled, chat.agentHost.otel.enabled, chat.agentHost.otel.exporterType, chat.agentHost.otel.otlpEndpoint, chat.agentHost.otel.outfile, chat.agentHost.systemProxy.enabled, chat.agentMerge.addressReviews, chat.agentMerge.enabled, chat.agentMerge.fixCI, chat.agentMerge.mergeMethod, chat.agentMerge.mergePullRequest, chat.agentMerge.replyAttribution, chat.agentMerge.resolveConflicts, chat.artifactTools.enabled, chat.agentSessions.autoArchiveMergedSessionsAfterDays, chat.agentSessions.autoDeleteArchivedMergedSessionsAfterDays, chat.stickyScroll.enabled, sessions.chat.unifiedWorkspacePicker.enabled, sessions.chatTimeline.display, chat.agentHost.agentDebugLog.enabled, chat.agentHost.agentDebugLog.maxEventsInMemory, chat.agentHost.ahpJsonlLoggingEnabled, chat.agentHost.allowSignedOutWhenUsable, chat.agentHost.copilot.mapLegacySettingsToManagedSettings, chat.agentHost.copilot.modelCapabilityOverrides, chat.agentHost.copilot.reasoningEffortOverride, chat.agentHost.copilot.reasoningSummary.enabled, chat.agentHost.copilot.toolSearch.deferThreshold, chat.agentHost.copilot.toolSearch.enabled, chat.agentHost.copilotSdk.logLevel, chat.agentHost.customTerminalTool.enabled, chat.agentHost.opus48Prompt.enabled, chat.agentHost.sdkSandbox.enabled, chat.agentHost.sdkSandbox.enabledWindows, chat.agentHost.shellTool.initScript.enabled, chat.agentSessions.migrateLegacyCopilotCli, chat.agentSessions.showExternal, chat.agentsHandoffTip.mode, chat.artifacts.enabled, chat.artifacts.rules.byFilePath, chat.artifacts.rules.byMemoryFilePath, chat.artifacts.rules.byMimeType, chat.assistedPermissions.enabled, chat.autopilot.advanced.enabled, chat.autoReply, chat.byokUtilityModelDefault, chat.contextUsage.enabled, chat.copilot.claudeAdvisor.enabled, chat.copilot.semanticSearch.enabled, chat.copilot.subagentModelGuidance.enabled, chat.customizations.locationsMigration.enabled, chat.customizations.mcpServerMigration.enabled, chat.customizations.migrationHint, chat.customizations.promptMigration.enabled, chat.customizations.structuredPreview.enabled, chat.customizations.userDataMigration.enabled, chat.defaultConfiguration, chat.defaultModel, chat.editing.openChangedFileInDiffEditor, chat.editing.revealNextChangeOnResolve, chat.experimental.collectInstructionsInExtension, chat.experimental.incrementalRendering.animationStyle, chat.experimental.incrementalRendering.buffering, chat.experimental.incrementalRendering.enabled, chat.experimental.openInAgentsWindow.revealCurrentSession, chat.experimental.permissionsSandboxToggle.enabled, chat.experimental.richLinks.enabled, chat.experimental.sessionArchiveActionWording, chat.experimental.sessionStateIndicator.enabled, chat.experimental.stickyScroll.enabled, chat.experimentalModelPicker, chat.experimentalModePermissionsPicker, chat.experimentalSessionsWindowOverride, chat.exploreAgent.defaultModel, chat.growthNotification.enabled, chat.inlineChat.agentHost.enabled, chat.microsoftAuthentication.enabled, chat.newSession.defaultMode, chat.pasteAsAttachmentThreshold, chat.permissions.default, chat.pluginLocations, chat.plugins.enabled, chat.plugins.enabledPlugins, chat.plugins.marketplaces, chat.plugins.strictMarketplaces, chat.progressBorder.enabled, chat.saveBeforeSend, chat.sessionSync.enabled, chat.sessionSync.excludeRepositories, chat.subagents.allowInvocationsFromSubagents, chat.subagents.defaultToAuto, chat.subagents.showCreditUsage, chat.subagents.useRichRendering, chat.terminal.agentHost.enabled, chat.titleBar.openInAgentsWindow.enabled, chat.titleBar.signIn.enabled, chat.tools.riskAssessment.model, chat.upvoteAnimation, chat.useClaudeHooks, chat.useCustomizationsInParentRepositories, chat.utilityModel, chat.utilitySmallModel, chat.verbose, dictation.enabled, dictation.experimental.llmCleanup, dictation.experimental.llmCleanupModel, dictation.model, dictation.showButton, dictation.showTranscript, github.copilot.chat.autoMode.tiers.enabled, github.copilot.chat.autoModeTierOverride, agents.voice.agentProgress, agents.voice.enabled, agents.voice.handsFree, agents.voice.language, agents.voice.liveTranscript, agents.voice.showButton, agents.voice.showTranscript, agents.voice.speakResponses, agents.voice.turn.silenceMs, agents.voice.turn.stopPhrases, agents.voice.voice, imageCarousel.chat.enabled, imageCarousel.explorerContextMenu.enabled, accessibility.signals.chatResponseReceived, accessibility.signals.chatUserActionRequired, issueReporter.wizard.enabled, issueReporter.wizard.fullWorkspaceScan
+2026-10-31 10:28:33.076 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-31 10:28:33.076 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js

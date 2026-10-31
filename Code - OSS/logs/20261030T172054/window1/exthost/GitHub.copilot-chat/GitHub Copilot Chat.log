@@ -1,0 +1,78 @@
+2026-10-30 17:20:57.955 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-10-30 17:20:57.955 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-10-30 17:20:57.955 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-30 17:20:57.955 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-10-30 17:20:57.955 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-10-30 17:20:57.955 [info] BYOK: fetching known models list
+2026-10-30 17:20:57.955 [info] Using the Electron fetcher.
+2026-10-30 17:20:57.955 [info] activationBlocker from 'languageModelAccess' took for 78ms
+2026-10-30 17:20:57.955 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:57.955 [error] [CopilotCLISDK] Failed to initialize logger: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:57.955 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:57.955 [error] Failed to initialize Copilot CLI Session Manager: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:57.955 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:57.955 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-30 17:20:57.955 [info] [CopilotCLI] MCP server started. Lock file: /home/operator/.copilot/ide/4e616024-4809-41de-bf98-dd65c26301ea.lock
+2026-10-30 17:20:57.955 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-RARSIN/mcp.sock#%2Fmcp
+2026-10-30 17:20:57.972 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-10-30 17:20:57.972 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-10-30 17:20:57.972 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-10-30 17:20:58.018 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-10-30 17:20:58.136 [info] ConversationFeature: BYOK models available
+2026-10-30 17:20:58.136 [info] ConversationFeature: Activating contributions
+2026-10-30 17:20:58.136 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-10-30 17:20:58.155 [warning] Unable to fetch remote agents because user is not signed in.
+2026-10-30 17:20:58.156 [info] activationBlocker from 'conversationFeature' took for 590ms
+2026-10-30 17:20:58.200 [info] Logged in as Chamath-the-curious
+2026-10-30 17:20:58.231 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:58.270 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:58.860 [info] Got Copilot token for Chamath-the-curious
+2026-10-30 17:20:58.860 [info] Copilot Chat: 0.66.0, VS Code: 1.138.0
+2026-10-30 17:20:58.931 [info] copilot token sku: free_limited_copilot
+2026-10-30 17:20:58.931 [info] copilot token sku: free_limited_copilot
+2026-10-30 17:20:58.931 [info] [code-referencing] Public code references are enabled.
+2026-10-30 17:20:58.931 [info] copilot token sku: free_limited_copilot
+2026-10-30 17:20:58.931 [info] [code-referencing] Public code references are enabled.
+2026-10-30 17:20:58.931 [info] copilot token sku: free_limited_copilot
+2026-10-30 17:20:58.931 [info] [code-referencing] Public code references are enabled.
+2026-10-30 17:20:58.931 [info] copilot token sku: free_limited_copilot
+2026-10-30 17:20:58.931 [info] [code-referencing] Public code references are enabled.
+2026-10-30 17:20:58.937 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-10-30 17:20:58.939 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-10-30 17:20:58.939 [info] copilot token sku: free_limited_copilot
+2026-10-30 17:20:58.944 [info] Registering default platform agent...
+2026-10-30 17:20:58.946 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-10-30 17:20:58.948 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-10-30 17:20:58.949 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:58.949 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:58.949 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:20:58.951 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-10-30 17:20:59.827 [info] Fetched model metadata in 2216ms a9266075-460a-4992-8b52-952fa1393941
+2026-10-30 17:21:00.308 [info] Latest entry: ccreq:latest.copilotmd
+2026-10-30 17:21:00.310 [info] ccreq:7b8925e9.copilotmd | markdown
+2026-10-30 17:21:35.657 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-10-30 17:21:37.378 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js

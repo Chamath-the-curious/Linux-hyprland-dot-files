@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[82336],{40815:(e,t,n)=>{n.r(t),n.d(t,{default:()=>l});const l={"contextualPrompts.loading.creatingSuggestions":"Benutzerdefinierte Vorschläge werden erstellt …","contextualPrompts.loading.tailoringHelp":"Hilfe wird angepasst ..."}}}]);

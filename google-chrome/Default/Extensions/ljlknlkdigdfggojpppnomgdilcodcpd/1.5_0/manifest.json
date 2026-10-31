@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "YouTube Play Next Button"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Makes YouTube's hidden 'Next' button visible on single videos",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvGCtTh82UK/+uXBjRUx8WT7mgv+AVB1/mkDO7WsTFIqL4ONJFaBYADj/mr6jEY5E9qVBs2Kbx4Xbv+ZtTMeAqcrX75r9ScuHzR0NhspivQAYHL2JB+Ins1AIm9dqvoeute5cfAjBtboGBSEk/OJCS8WIJm85hS2E1kl+A99MDHYGFy+9zgXnCNcVxJPdVMMsFZifPfodhzIzXMF8JB4hT8/h4+/jd1GFls4QWCsejM1/xrAmrFIdfBhsZyFj8OalOxs3CB8cyyH5PSzL8IHaT+EcGLQiGjOY5bZuv+egWbCW4FIrfXCHwAbis0H4B4xFAilS2Sx/+j8JgOoqoVg7QwIDAQAB",
+   "manifest_version": 3,
+   "name": "YouTube Play Next Button",
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}

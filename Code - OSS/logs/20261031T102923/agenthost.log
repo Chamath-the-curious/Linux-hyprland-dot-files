@@ -1,0 +1,21 @@
+2026-10-31 10:29:24.609 [info] Agent Host process started successfully
+2026-10-31 10:29:24.609 [info] AgentService initialized
+2026-10-31 10:29:24.609 [info] Registering agent provider: copilotcli
+2026-10-31 10:29:24.609 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-31 10:29:24.622 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-73b0707d0432/ha_delukH96NxD0ZK0FkUw.sock
+2026-10-31 10:29:24.634 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-31 10:29:24.778 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-31 10:29:24.880 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-31 10:29:24.947 [info] [ProtocolServer] Initialize: clientId=a892367f-cee8-40d4-974d-59b05d633221, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-31 10:29:26.321 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-10-31 10:29:26.322 [info] [Copilot] Listing discoverable chats...
+2026-10-31 10:29:26.322 [info] [Copilot] Starting CopilotClient...
+2026-10-31 10:29:26.323 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-10-31 10:29:26.336 [info] [Copilot] Resolved CLI path: /usr/lib/code/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-10-31 10:29:26.892 [info] [Copilot] Auth token updated
+2026-10-31 10:29:27.276 [info] [Copilot] CopilotClient started successfully
+2026-10-31 10:29:27.279 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-31 10:29:27.279 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-10-31 10:29:28.661 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-10-31 10:29:28.664 [info] [Copilot] Listing models...
+2026-10-31 10:29:30.523 [info] [Copilot] Found 1 models: Auto

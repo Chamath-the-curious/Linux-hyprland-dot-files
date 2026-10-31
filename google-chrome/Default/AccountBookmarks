@@ -1,0 +1,195 @@
+{
+   "checksum": "465d320663aedb232eb0fb8ad1609053",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13338125324067918",
+            "date_last_used": "13437899915092124",
+            "guid": "fbc04048-28b0-4865-8d49-661e73f0e34a",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13233905525612651",
+            "date_last_used": "13437898883949747",
+            "guid": "9f18730c-9847-45fa-af87-b708517517b5",
+            "id": "13",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13233905525613256",
+            "date_last_used": "13425819117026930",
+            "guid": "4f1b9bd8-b532-4295-b5f0-070f86e184bf",
+            "id": "14",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13233905533714489",
+            "date_last_used": "13426099830467948",
+            "guid": "72f2f113-28c2-4981-bbd2-92f711428d9c",
+            "id": "15",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13233905535962489",
+            "date_last_used": "0",
+            "guid": "40abb558-3564-4015-9c7e-2089a2bad406",
+            "id": "16",
+            "name": "Translate",
+            "type": "url",
+            "url": "https://translate.google.com/"
+         }, {
+            "date_added": "13256308375045681",
+            "date_last_used": "13399892978659166",
+            "guid": "e5365c02-ff1e-44aa-9645-6f5f94568ecb",
+            "id": "17",
+            "name": "Reddit",
+            "type": "url",
+            "url": "https://www.reddit.com/"
+         }, {
+            "date_added": "13277477634746319",
+            "date_last_used": "13418951926066226",
+            "guid": "3e4b0bbd-d23a-4e5c-87ad-52a3980fe348",
+            "id": "18",
+            "name": "Twitch",
+            "type": "url",
+            "url": "https://www.twitch.tv/"
+         }, {
+            "date_added": "13315586307185431",
+            "date_last_used": "13420282629116999",
+            "guid": "b348d734-041b-47bc-8328-3a3d5a1a9109",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Telegram",
+            "type": "url",
+            "url": "https://web.telegram.org/z/#-1663972828"
+         }, {
+            "date_added": "13372266409274619",
+            "date_last_used": "13437895736628007",
+            "guid": "a9e58f8e-157f-4052-b763-63a4eb9ba474",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/"
+         }, {
+            "date_added": "13381832279710615",
+            "date_last_used": "13397646669774653",
+            "guid": "d82413ca-dd4d-4144-bd13-8658a791b969",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Spotify ",
+            "type": "url",
+            "url": "https://open.spotify.com/"
+         }, {
+            "date_added": "13389452240489742",
+            "date_last_used": "13437901137813408",
+            "guid": "32ba46dd-a020-431c-b990-0282c14fd621",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Github",
+            "type": "url",
+            "url": "https://github.com/Chamath-the-curious"
+         }, {
+            "date_added": "13428696942807263",
+            "date_last_used": "0",
+            "guid": "0579b366-0f74-4410-b7d5-1de4a99816ff",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Gemini",
+            "type": "url",
+            "url": "https://gemini.google.com/app"
+         } ],
+         "date_added": "13437813383361274",
+         "date_last_used": "0",
+         "date_modified": "13428696942807263",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "5",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13388858420442101",
+            "date_last_used": "0",
+            "guid": "a2e5b0ac-7f99-4a3e-9db0-0f49a0b7d6bb",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "C#",
+            "type": "url",
+            "url": "https://centria.github.io/basic-csharp/part1"
+         }, {
+            "date_added": "13388858823237572",
+            "date_last_used": "0",
+            "guid": "eed8aa1e-f1ea-4b06-9914-77dc4e76dee5",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Grokking Algorithms",
+            "type": "url",
+            "url": "https://edu.anarcho-copy.org/Algorithm/grokking-algorithms-illustrated-programmers-curious.pdf"
+         }, {
+            "date_added": "13388931584599253",
+            "date_last_used": "13410079614575265",
+            "guid": "e37fbf73-ea2e-4b72-a534-0debd2afa29b",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Andrija - Skilled Web Developer",
+            "type": "url",
+            "url": "https://andrijaweb.vercel.app/"
+         }, {
+            "date_added": "13390946692612519",
+            "date_last_used": "13400454000845796",
+            "guid": "62c1371e-0260-4b87-97f3-527e99642615",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "[国语] 进击的巨人 (Attack on Titan) (Season 1-4 + OVA + Junior High) (Mandarin Chinese + Cantonese Dub) [國語][CHT][繁字][中文配音][中配版] (進擊的巨人) (Shingeki no Kyojin) - Project AcgnX Torrent Global",
+            "type": "url",
+            "url": "https://www.acgnx.se/show-dc0db78ad6c4cecb4f9390861e71abe5e82f9bbb.html"
+         } ],
+         "date_added": "13437813383361274",
+         "date_last_used": "0",
+         "date_modified": "13390946692612519",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "6",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13437813383361274",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "7",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CnAKUAiIgQISSiAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCTFidHYcXwYAETFidHYcXwYAKdC7d3YcXwYA6gEMCK+CltcGENixipYBEgAqGC9wa0ZHemFpQVJnc2M5ZW9ja1p5cWc9PUgDEuwBCAsS5wEKHERXSFZabXd2U3J5alllOXpMamVBOTlmbHFXVT0SZlo6QURxdEFaekNnbkw4aTZqQXp6aDZEd0MyY051VTZJUnlqU29kditzMFpTT1RFTHBRTUp5UWlaWVBCaW5sVVY4cDUyM1p4OTlCMHh5RzVSaVEwMEd0UUh0Y0ZXZHlzR0E5cGc9PRgAIAAoADDW683k4KGPAziEjKKP6jJAhIyij+oyShxrSG9xRkNvNUFFUVBhMnMyYS9kRXNWeTI0TjQ9Wh8iHe5OTmtITHZ1aXpPNGdYRTYyWlBPcmJjdHhJTDQ9ZdSPIxoSwQEIBhK8AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp3RkpRd3FHMHRNSGE3T2NtcjgwbVRyWm1qVjRoNDliSmdGbys2aWlrbk9NTFpzOEdkVnMybGZYNmo5ZE1RZHRJWnZUV1NNc1dISmdTeHgrRnNNc1FDV2RZdkgrZz09GAAgACgAMOOyj6WH4ZcDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PWUAAAAAEusBCAgS5gEKHEN5MDQ2TXRTeHlEbEo2MHFZQ3B6L295TGJHVT0SZlo6QURxdEFaekNnbkw4aTZqQXp6aDZEd0MyY051VXFzZU9LeEN1TmJlL1ladFZFbllZUFhTUW1xbDcweDZjU3pVQW9XbnV3OGVkbkJUQ2s2QWhkVDh0dVpBOElnTHZsNEF5S0E9PRgAIAAoADDdit/wo9CMAzjaicCr4jJA2onAq+IyShxyVnJuSEhyVjNpRFdobFdkbDdMSTc0bnFjN2M9Wh4iHHJOU09MTENRZ1Y3Y2oxZFp0TE1CYUtoV2d5Yz1liNG2wRLsAQgVEucBChxoNEk3S3YzalZqYUlodjZYZmFUcVphcFF3SE09EmZaOkFEcXRBWnpDZ25MOGk2akF6emg2RHdDMmNOdVVPdHNQTml2Y29iNDUreTJSaU9HZnBNck52TkQyaG9RbzRCZGdkMEFjMUpDQkFoWXJ4WkNhVWU0OUFYVEd4dEdyMXJDZ213PT0YACAAKAAw0LrBjPGHkAM4nr2WlcgyQJ69lpXIMkocelltV05zZ0ZmNkhUMSsvTTlleDZPUWlPN00wPVofIh3/WnFkb1hDVHlaVzI1anV5cmF3VDhtTDAxb2djPWU2h3BWEuwBCBMS5wEKHE1EVGNEYk5uSTlWZE9vbWcxc3N6T3pRdlVkUT0SZlo6QURxdEFaekNnbkw4aTZqQXp6aDZEd0MyY051VXFsN1hJZ0tON2JsM2FUM0RxR1dKWEw2NjArWGh6dmJZaW1PaWJ6U2RBZWJjS3JQK1o2VGx2VmlqMVF0ZjU5OHhxRVhRK0E9PRgAIAAoADDw+4Og7OKTAzjymNGw0TBA8pjRsNEwShxVZzJqTWRmU0NGeFhHM0VETUlock83Z0s0SHc9Wh8iHf1wL3JRNlRvZnYrMEZJdmZDbFFFQVgrOEl4Zmc9ZTBanLISrAIIEBKnAgocM0dRZ0h3OE9Pajc1UzN1M1ppTmZOemNZUzRJPRKmAVo6QURxdEFad1JqTUdlY1RNcVVrTGpKTXd2dDlmZ1AyQXRXL2hjVGh1T3Z5MUl5WGdLS1k4N2w3cVdkVklsQTlaaVEvVkx2OFdQYUR6MlBHaFJ3RnZjZ0xLa1FTV1A4RVltbWJRTVg0K3U2dWFmQm1CNndNM2N4ekZwYXFmRlVDbS9vdjRCc1A1Rng2WGVNa1FHNmxyNVpKRFdpZjVxRTNFOUJ3PT0YACAAKAAwu5Ci6fyPkAM4jpmmjKEuQI6ZpoyhLkocMFhVbHhEajdNeHh1d1owdnBWeTRzNTBGQjVZPVoeIhxuUGcxSlB0RTNTNWpOZ2hSWDZKRld5SU8yWUE9ZZwLqjYS7AEIFhLnAQocaXBTWi9iSkJkekFSZXJocjZPRkk2WS82a3prPRJmWjpBRHF0QVp6Q2duTDhpNmpBenpoNkR3QzJjTnVVYzYwdVNTTU1LNlFMNnBqZ09CQ29iaklQZDFzc1lmRmVoUGM0NXE2QkswbGd5bUtiVlVNL3pCcUxIcmVoRlVLWGwyN0xXZz09GAAgACgAMKj18aa2hpIDOOn808bkMkDp/NPG5DJKHE0rdEVEejVhU3VLMXhobDI0am5CUkdRdVBYWT1aHyId/2gwZmk0N05veUtSS3UyeHBqUllmOCtNVGVtbz1lhWftDxLsAQgJEucBChxPdW45OTUrb0hTdXN3ZlhUU05xMUxRWmVmTFU9EmZaOkFEcXRBWnpDZ25MOGk2akF6emg2RHdDMmNOdVV6UnY4ZDBKb2lBTlhnT2drdXZNaE9JU0twZ3d3b1ZSZEdyUUV6WVJjZysrVDMvQ2lQeUdqaSt0blkvQ1V6eXUwK1NxYklnPT0YACAAKAAw4rDVraXQjAM4xdTYq+IyQMXU2KviMkocWlpIUGE2NEFNQ3FaRDV3ZktHQ0g1eXVITmpzPVofIh25N1BoV0cyQzhZZnlSdVpieTBuU1hzK01ha1N3PWUAAAAAEsEBCAcSvAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeHI4cXMzemJIekZaWC9ERVlhc0VZaFhySnVwOTdDUTJUcjVWUHFBaVRQemFtUXI5OHVYOTlhbTZhWGp3Q0NPWEVKdzNkTUh5VXZFcjM2T3pzSXhGSkg2YnE3Q1E9PRgAIAAoADDjso+lh+GXAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1lAAAAABKpAQgFEqQBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWng4bDBqNXI2VHAxQ2d3N09yc2Vpd2NyWWxmWkpjUXFEVGw0RldkR3NNMEQ5VHcxNGR0anlMU2JtelZRYW55UnVuUDdVNnIYACAAKAAw47KPpYfhlwM4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9ZQAAAAAS7AEIEhLnAQocUnIydGE0b3gvbnB0bUV2Y1RxdXJTOHU5RVhrPRJmWjpBRHF0QVp6Q2duTDhpNmpBenpoNkR3QzJjTnVVV0tHTlY4N3BkUEloM1c0MmhaZGJHYXM0R0pSN3k5QVlmNkdCdXRENHRSOHpocnJScFZVaU0zdmp3dUwzWnNqNnZvTTBRZz09GAAgACgAMNTjif+OvJMDOLq1gLXDL0C6tYC1wy9KHFVPazZHaUpvcEhCb2h0N2dWRmRzM2p5QXhLdz1aHyId+2RuTzU1Y0U0aThWM0hSaVFPRVptY2ZhajJrND1lp/uYEBLsAQgMEucBChxQcC82OXRPcTMzajZSOUdIVXlpN2I5eUNDWDg9EmZaOkFEcXRBWnpDZ25MOGk2akF6emg2RHdDMmNOdVUwOVRxY3NDMU1ZZVhqSDFsRVVrSDRsNTdJc09hTXRIbWN5ZzMrZVEvbkhWb0FDa1NZQ1dXRU1Ebk5RVHU2NmhMYXJKeEZ3PT0YACAAKAAw7uLp/aTdlwM4pM6JrKUxQKTOiaylMUocSnRFaGg4cWpqeXk3U2w2YXBiWW5RRTUwekljPVofIh0ieFBWejdMdXkzTEhKR1pvMVFRWHlpVEJROGRrPWW12olqEqwCCA8SpwIKHHFLWWpmZTY5ZnBuNjhKT2pIZ3B0b3ZaY1I5ST0SpgFaOkFEcXRBWndSak1HZWNUTXFVa0xqSk13dnQ5ZmdQMkF0Vy9oY1RodU92eTFJeVhnS0tiOE5FcUFLVi8vc0U5T25pSVRRTmE3eTAzcHNHY2c1TVJPRy9TMEljb1FrZjR0L29FRzNoZm4zUml4b1VpYnVOU0xsN0tGc0VjZGsrRDZmaDN0dVdCR1Z6SXdZSVNYOXpMbG16cDNweXVBM3M4NEVoUT09GAAgACgAMNWozIeTjJUDOI6ZpoyhLkCOmaaMoS5KHHB2azB2UWFYa2xObkgzdi9RTzJFTWJqdXZNYz1aHiIcYWxpbFVrMHQwUWU4MkZuNG5Ic1FaeEJCRXowPWXgTE9kEuwBCBQS5wEKHEJUYjlhV3FkckZSc2o2Wm5CL0NqY3MrUnBoRT0SZlo6QURxdEFaekNnbkw4aTZqQXp6aDZEd0MyY051VWRZMXE4Q0pDeFB2ZDRwVFZWYlAydWZlZklwVG9BTEExQU1sZFRSK1JWNUdWV1VLaDZrSEd4cHp4LytITGhtKzFRTnEwMlE9PRgAIAIoAjD198q+quGXAzi6iujDpDJA6KzG35g0ShxiRCs3WTZ3TGplWUpnb3VmblRtcC8wZWlNblU9Wh8iHf5XQ0NmU0FXYkk2d2VVdDdscFQ5bEtORTRRb0k9ZfiSA9US7AEIChLnAQocVGpJUzlmQUplU1RsbVcrNVVxM1UrcmtIVVlrPRJmWjpBRHF0QVp6Q2duTDhpNmpBenpoNkR3QzJjTnVVZWswd1pBYXdiOXNGWjYrd2RmQjlFSllkaU1wWjRraEkrNFo4OEViZm1yS3FabDcxcExYSzBhQUVEMDNvcEkvR2g2a0JRQT09GAAgACgAMJ3Hk/3yuZEDONfUsc7iMkDX1LHO4jJKHE9VTVZJNVcvUmRaOENJeWxZaGp5WC9EU0Fzbz1aHyId3ElMVkduUWlHdE5BMVlJblExWDRuVG0zbHZoQT1l/FtujRKsAggOEqcCChxsQmlFYWJ0VnBHNytmOXUzdVQyMS9jNUphUjg9EqYBWjpBRHF0QVp3UmpNR2VjVE1xVWtMakpNd3Z0OWZnUDJBdFcvaGNUaHVPdnkxSXlYZ0tLU1Q5VDVwOXUvY3JJbkQ3ZWQ2bU1NazlqR29rWXFybmVtMG1mUEJVSVJmU0NuSXBESnJuenUzVmd6MStMeTNaNjVjSUxnSWsveTdsY094aWZMTERCUFVXTzRDOENWOTZJRXdaRlBERXhpWlhYbUVES3c9PRgAIAAoADCHz9ah/YOVAziOmaaMoS5AjpmmjKEuShw2MW05ZnFTNytyWm5TcW43ZVNMWnplVWpXT0E9Wh4iHFZ4c0hMQlRaZVRtbEg5R3lrdmRFNVU0UW1wZz1lNdWzoxKsAggNEqcCChxXOHU5dzFsRUNQbzJQSFVGb3loaVBtTmhIRWM9EqYBWjpBRHF0QVp3UmpNR2VjVE1xVWtMakpNd3Z0OWZnUDJBdFcvaGNUaHVPdnkxSXlYZ0tLWnlRa1dEbGZTYjE2bk5Ic0REcHZDSzlVeEpMTGZaQk5Zazgra1hGQUxyYnZZTWlBbjRrb0wrMkdTbDhDZ2hsZU51YlhRUEdBREZkclpKMkVFT2xjUnNLbTdLVkhOa3BHUXhHNTdmMk9HT0JnZnUyWWc9PRgAIAAoADDVte/jtd6TAziOmaaMoS5AjpmmjKEuShxqNzN1VC9XcWxUMUttOEplM09xcHZpbWpIK289Wh4iHEVzOTJxSW53akZFNG9qdE8rVzgyNVhHZENrQT1lUELD0hKtAggREqgCChxrZjRNSUtMWlpPZ3JUeVZRMUhYL09hekFUQTQ9EqYBWjpBRHF0QVp3UmpNR2VjVE1xVWtMakpNd3Z0OWZnQnBzQWp0U3k1R2ZxSlE0V3AzYzJWVG53RmhnNnUxK2FMNENHalZ1Wmg2OTF3SFN5emdmNjV6YXVpWDNOSE9LRHJRTHZNWlRqT1NjaW94VzRlUU9pa2NUZzJ2ek9TbHZHVjRTakQ1VmhVbkdaN3FjdFd3NElOeUxCOVJlcGxBU0RXNTlEdkE9PRgAIAAoADCllcySj5SPAziGrNvG9C5AhqzbxvQuShwrd25EdUJqbEpWK1lEY2NiWmRGSWVaaGRub2M9Wh8iHbc3RXhzdTgzSW10anBpUThZbXlsMzM0ejBsd009ZVCAcB0S7AEIFxLnAQocNHY5amxYRDAxempOK2lHNHo2T3RNSXlhczRjPRJmWjpBRHF0QVp6Q2duTDhpNmpBenpoNkR3QzJjTnVVY090OThSSTdwUDNTU0tRbGxwMWN4bDRLSVN6amRvZmFRUjZKRVJ2c01HTzhXK2NKZ2hZY2ZvdFR0L1A5RWpVZEhINU9DZz09GAAgACgAMOnCyPbd15UDONfB/t/2M0DXwf7f9jNKHE1aZDZSVHZ3OFYvclpPSTNUTXE0Q1ZOZkd5RT1aHyId/25WUVBoS3dta2pwRzlrUE5YN09tNjdPMzIvaz1lhXCxBDABOAA=",
+   "version": 1
+}

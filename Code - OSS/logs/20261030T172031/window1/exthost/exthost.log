@@ -1,0 +1,4 @@
+2026-10-30 17:20:33.659 [info] Extension host with pid 28751 started
+2026-10-30 17:20:33.659 [info] Skipping acquiring lock for /home/operator/.config/Code - OSS/User/workspaceStorage/4942d75ec74a88a6dbfffc5b0d1470c4.
+2026-10-30 17:20:33.696 [info] Extension host terminating: received terminate message from renderer
+2026-10-30 17:20:33.698 [info] Extension host with pid 28751 exiting with code 0
